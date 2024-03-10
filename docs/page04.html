@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* Light gray background color */
+        }
+
+        form {
+            text-align: center;
+            background-color: #ffffff; /* White background color */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+        }
+
+        label {
+            color: #333333; /* Dark gray text color */
+        }
+
+        input {
+            padding: 8px;
+            margin: 5px;
+            border: 1px solid #cccccc; /* Light gray border color */
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4caf50; /* Green button color */
+            color: #ffffff; /* White text color */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+    <form name="login-form" action="./page04.html">
+        <label>New password:</label>
+        <input type="text" id="newpassword"><br><br>
+        <label>Confirm password:</label>
+        <input type="password" id="confirmpassword"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
